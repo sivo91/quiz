@@ -84,7 +84,7 @@ btn.addEventListener('click', () => {
        loadQuiz()
      } else {
        container.innerHTML = `
-         <h3> Odpovedal si spravne ${score} z ${quizData.length}</h3>
+         <h3> Correct answers ${score} </h3>
          <h5> "How long did thirty years war last ? </h5>
         <li> 3 </li>
         <li> 33 </li>
@@ -100,7 +100,7 @@ btn.addEventListener('click', () => {
         <h5> Who has invented JavaScript? </h5>
         <li class="color"> B Eich = correct </li>
         <li> John Doe </li>
-        <li> Håkon W Lie </li>
+        <li> H W Lie </li>
         <li> P Mark </li>
        `
      }
@@ -108,6 +108,7 @@ btn.addEventListener('click', () => {
 
 })
 
+ // ${quizData.length}
 
 
 
